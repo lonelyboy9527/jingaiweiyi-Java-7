@@ -127,6 +127,7 @@ public class MyClass2 {
 		 * 
 		 * 例子
 		 *
+		 * http://blog.csdn.net/salahg/article/details/7529091
 		 * 必须声明 x 为final才可以通过编译
 		 * 为什么？
 		 * 
@@ -140,6 +141,8 @@ public class MyClass2 {
 			@Override
 			public String toString() {
 				// TODO Auto-generated method stub
+				x[1] = 30;
+				System.out.println(x[1]);
 				return "example" + x[0];
 			}
 		};

@@ -13,8 +13,8 @@ public class Main {
 		 * 
 		 * 接口的默认语法，接口中定义常数的运用，匿名内部类的撰写等...
 		 * */
-//		MyClass2.exp1(); // 7.2.1 接口的默认
-//		MyClass2.exp2(); // 7.2.2 匿名内部类
+		MyClass2.exp1(); // 7.2.1 接口的默认
+		MyClass2.exp2(); // 7.2.2 匿名内部类
 		MyClass2.exp3(); // 7.2.3 使用enum枚举常数
 	}
 	
@@ -27,8 +27,8 @@ public class Main {
 		 * 注意接口类似于 OC的协议
 		 * */
 		
-//		MyClass.exp1(); // 7.1.1 接口定义行为
-//		MyClass.exp2(); // 7.1.2 行为的多态
+		MyClass.exp1(); // 7.1.1 接口定义行为
+		MyClass.exp2(); // 7.1.2 行为的多态
 		MyClass.exp3(); // 7.1.3 解决需求变化
 	}
 
